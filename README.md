@@ -1,1 +1,1 @@
-# kikad-lab
+# kicad-lab
