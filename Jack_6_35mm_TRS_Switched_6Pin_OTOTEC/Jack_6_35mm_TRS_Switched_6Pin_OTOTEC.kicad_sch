@@ -4,7 +4,236 @@
 	(generator_version "10.0")
 	(uuid "f8591ae7-1241-4b97-b2f8-4e0614dca332")
 	(paper "A4")
+	(title_block
+		(title "6.35 mm Switched TRS Jack Breadboard Adapter")
+		(date "2026-09-20")
+		(rev "1")
+		(company "adb-dev.tech")
+		(comment 1 "curtesmalteser.com")
+	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Audio:NMJ6HCD2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -331,9 +560,343 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 29.21 34.29) (xy 34.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0342a8f7-3780-4732-8330-a46249e7248d")
+	)
+	(wire
+		(pts
+			(xy 41.91 24.13) (xy 45.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7c0e5b-7c68-45a3-94af-f91503fa85c2")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 44.45 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fb2580-cd08-45d0-a84b-64551b497be4")
+	)
+	(wire
+		(pts
+			(xy 41.91 24.13) (xy 41.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4860771f-e0e8-4861-bbd2-b61ce32ec078")
+	)
+	(wire
+		(pts
+			(xy 31.75 26.67) (xy 34.29 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486caebe-0346-4f41-b090-743c4ad3491a")
+	)
+	(wire
+		(pts
+			(xy 29.21 24.13) (xy 34.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e88267-afdd-462c-a74b-08107c8f7a7f")
+	)
+	(wire
+		(pts
+			(xy 30.48 25.4) (xy 41.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e15449-a62d-4569-8601-99b31d7aab8f")
+	)
+	(wire
+		(pts
+			(xy 30.48 26.67) (xy 30.48 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92608002-bb9d-4016-ac4a-caa3c6223ad0")
+	)
+	(wire
+		(pts
+			(xy 45.72 21.59) (xy 29.21 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93327582-aaa1-408b-8d2a-f67ed0fa0d32")
+	)
+	(wire
+		(pts
+			(xy 33.02 31.75) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94091521-7bff-47a3-8a0c-b4c2900a3ce2")
+	)
+	(wire
+		(pts
+			(xy 34.29 29.21) (xy 34.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9541eb08-1019-4f84-b750-4d8d61e1f97a")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 45.72 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e27c2d9-d2f7-4785-ad60-48b03bba47d6")
+	)
+	(wire
+		(pts
+			(xy 31.75 29.21) (xy 31.75 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be61853b-139d-4bcc-ab10-f24c574d54ec")
+	)
+	(wire
+		(pts
+			(xy 29.21 29.21) (xy 31.75 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c031bd84-0db2-44c8-8c1f-20ea3ec180a2")
+	)
+	(wire
+		(pts
+			(xy 29.21 26.67) (xy 30.48 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fa2629-882a-4b38-88f7-805fd0e3486f")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 44.45 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ae1461-f4ca-4113-a311-7091f493dda1")
+	)
+	(wire
+		(pts
+			(xy 29.21 31.75) (xy 33.02 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ab7e99-82d2-40c0-8182-3c359ea86e7c")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 50.8 24.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1adf3a66-4270-46e9-98fa-c4f0d4c8fe02")
+		(property "Reference" "Conn_01x03_Pin2"
+			(at 59.436 26.924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TRS"
+			(at 59.436 24.384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 50.8 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 50.8 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41ea10d3-01c0-4a70-a324-b3b9aaab3486")
+		)
+		(pin "2"
+			(uuid "4f87e2ce-d214-4999-adf7-67ec1845d48c")
+		)
+		(pin "3"
+			(uuid "a55b015c-64da-44cd-845f-d809844b882a")
+		)
+		(instances
+			(project "Jack_6_35mm_TRS_Switched_6Pin_OTOTEC"
+				(path "/f8591ae7-1241-4b97-b2f8-4e0614dca332"
+					(reference "Conn_01x03_Pin2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 39.37 26.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63baecca-a0ae-4f0b-87e5-a1ba54c3a3ac")
+		(property "Reference" "Conn_01x03_Pin1"
+			(at 43.688 33.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TRS_NORMAL"
+			(at 43.688 31.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 39.37 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 39.37 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c94f90ed-7db0-4ab6-886f-0fb4f0c3e762")
+		)
+		(pin "2"
+			(uuid "309d8c80-1454-4136-be02-890befe3de3c")
+		)
+		(pin "3"
+			(uuid "b4291df8-6b0f-49ed-82ce-cc3e144b99dd")
+		)
+		(instances
+			(project "Jack_6_35mm_TRS_Switched_6Pin_OTOTEC"
+				(path "/f8591ae7-1241-4b97-b2f8-4e0614dca332"
+					(reference "Conn_01x03_Pin1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector_Audio:NMJ6HCD2")
-		(at 55.88 48.26 0)
+		(at 24.13 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -344,7 +907,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbb651b3-c953-4443-ad6c-df9dc74375e8")
 		(property "Reference" "J1"
-			(at 53.975 36.83 0)
+			(at 22.225 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -354,7 +917,7 @@
 			)
 		)
 		(property "Value" "NMJ6HCD2"
-			(at 53.975 39.37 0)
+			(at 22.225 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -364,7 +927,7 @@
 			)
 		)
 		(property "Footprint" "OTOTEC:Jack_6.35mm_OTOTEC_TRS_Switched_6Pin"
-			(at 55.88 48.26 0)
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -375,7 +938,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hcd2"
-			(at 55.88 48.26 0)
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -386,7 +949,7 @@
 			)
 		)
 		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins"
-			(at 55.88 48.26 0)
+			(at 24.13 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
