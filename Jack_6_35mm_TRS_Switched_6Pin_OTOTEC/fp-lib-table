@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AJDB") (type "KiCad") (uri "/Users/developer/Documents/Development/KiCad/AJDB.pretty") (options "") (descr ""))
+)
